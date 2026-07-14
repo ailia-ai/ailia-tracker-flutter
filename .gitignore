@@ -2,7 +2,8 @@
 .dart_tool/
 .packages
 build/
-pubspec.lock
+/pubspec.lock
 .claude/
 ailia_tracker_1_10/
 native/
+example/.metadata
