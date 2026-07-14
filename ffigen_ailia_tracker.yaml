@@ -8,21 +8,27 @@ headers:
     - 'native/ailia_tracker.h'
 functions:
   include:
-    - 'ailia.*'
+    - 'ailiaTracker.*'
 structs:
   include:
-    - '.*AILIA.*'
+    - '.*AILIATracker.*'
+    - '.*AILIADetectorObject'
 macros:
   include:
-    - 'AILIA.*'
+    - 'AILIA_TRACKER_.*'
+    - 'AILIA_DETECTOR_OBJECT_VERSION'
 enums:
   include:
-    - 'AILIA.*'
+    - 'AILIA_TRACKER_.*'
 unnamed-enums:
   include:
-    - 'AILIA.*'
+    - 'AILIA_TRACKER_.*'
 globals:
   include:
-    - 'AILIA.*'
+    - 'AILIA_TRACKER_.*'
+typedefs:
+  include:
+    - '.*AILIATracker.*'
+    - '.*AILIADetectorObject'
 llvm-path:
   - '/usr/local/opt/llvm@16'
