@@ -7,3 +7,4 @@ build/
 ailia_tracker_1_10/
 native/
 example/.metadata
+example/ios/Podfile.lock
