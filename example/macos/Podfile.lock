@@ -1,0 +1,22 @@
+PODS:
+  - ailia_tracker (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - ailia_tracker (from `Flutter/ephemeral/.symlinks/plugins/ailia_tracker/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  ailia_tracker:
+    :path: Flutter/ephemeral/.symlinks/plugins/ailia_tracker/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  ailia_tracker: 6a8ff509676f91c3c5d88ef2a1a5c0d7aea1f260
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+
+PODFILE CHECKSUM: 54d867c82ac51cbd61b565781b9fada492027009
+
+COCOAPODS: 1.16.2
