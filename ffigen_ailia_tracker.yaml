@@ -1,0 +1,28 @@
+name: 'ailiaTrackerFFI'
+description: 'FFI bindings for ailia Tracker'
+output: 'lib/ailia_tracker.dart'
+preamble: |
+  // ignore_for_file: unused_field, unused_element
+headers:
+  entry-points:
+    - 'native/ailia_tracker.h'
+functions:
+  include:
+    - 'ailia.*'
+structs:
+  include:
+    - '.*AILIA.*'
+macros:
+  include:
+    - 'AILIA.*'
+enums:
+  include:
+    - 'AILIA.*'
+unnamed-enums:
+  include:
+    - 'AILIA.*'
+globals:
+  include:
+    - 'AILIA.*'
+llvm-path:
+  - '/usr/local/opt/llvm@16'

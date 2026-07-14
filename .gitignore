@@ -1,0 +1,8 @@
+.DS_Store
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.claude/
+ailia_tracker_1_10/
+native/
